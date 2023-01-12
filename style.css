@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: 'Poppins', sans-serif;
   background-image: url(./mobile-ingrediants/header-shapes\ mobile.png);
@@ -16,7 +21,12 @@ html {
 .navigation {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-content: center;
+}
+
+.navigation-btn {
+  background-color: transparent;
+  border: none;
 }
 
 .primary-header {
@@ -25,6 +35,7 @@ html {
   font-weight: 700;
   margin-top: 6rem;
   color: #172b4d;
+  margin-bottom: 3.2rem;
 }
 
 .primary-decrption {
@@ -32,16 +43,24 @@ html {
   line-height: 2.4rem;
   text-align: justify;
   color: #344563;
+  margin-bottom: 3.2rem;
 }
 
 .secondary-header {
   font-size: 1.6rem;
   color: #7f8cff;
+  margin-bottom: 1.2rem;
 }
 
 .links {
   display: flex;
-  justify-content: flex-start;
-  gap: 2.2rem;
-  align-items: center;
+  gap: 1.6rem;
+}
+
+.link {
+  left: -20%;
+}
+
+ul li {
+  list-style: none;
 }
