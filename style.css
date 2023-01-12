@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url(./mobile-ingrediants/header-shapes\ mobile.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+html {
+  font-size: 62.25%;
+}
+
+.container {
+  padding: 2.8rem;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.navigation-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.primary-header {
+  display: flex;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-top: 6rem;
+  color: #172b4d;
+  margin-bottom: 3.2rem;
+}
+
+.primary-decrption {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-align: justify;
+  color: #344563;
+  margin-bottom: 3.2rem;
+}
+
+.secondary-header {
+  font-size: 1.6rem;
+  color: #7f8cff;
+  margin-bottom: 1.2rem;
+}
+
+.links {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.link {
+  left: -20%;
+}
+
+ul li {
+  list-style: none;
+}
