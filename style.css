@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   background-image: url(./mobile-ingrediants/header-shapes\ mobile.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -12,6 +12,7 @@ html {
 .container {
   padding: 2.8rem;
 }
+
 .navigation {
   display: flex;
   justify-content: space-between;
