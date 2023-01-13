@@ -156,7 +156,7 @@ ul li {
   color: #fff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 8px;
-  transition: all 0.9s;
+  transition: all 0.5s;
 }
 
 .btn:active {
@@ -199,8 +199,13 @@ ul li {
   margin-bottom: 2rem;
 }
 
+.about-btn {
+  margin-left: 1rem;
+}
+
 .about-links {
   margin-bottom: 3.4rem;
+  margin-left: 1rem;
 }
 
 .languages {
@@ -208,7 +213,10 @@ ul li {
   justify-content: space-between;
   align-items: center;
   margin-top: 3.4rem;
+  margin-bottom: 3rem;
+  margin-left: 1rem;
   padding-right: 3.4rem;
+  padding-left: 0.2rem;
   font-size: 2.4rem;
   font-weight: 500;
 }
@@ -221,33 +229,33 @@ ul li {
 .programming-skill {
   display: flex;
   flex-direction: column;
+  margin: 0 1rem 0 1rem;
   gap: 1.8rem;
-  padding: 3rem 1.8rem;
 }
 
-.programming-skill span {
+.programming-skill li {
   display: flex;
   align-items: center;
   background: #f7f7f9;
   border-radius: 8px;
   gap: 0.1rem;
   padding: 0.8rem 0 0.8rem 0.8rem;
-}
-
-.programming-skill span li {
   font-size: 1.5rem;
   font-weight: 500;
-  margin-left: 2rem;
 }
 
-.frameworks-skills span {
+.frameworks-skills {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(192, 192, 192);
   padding: 0 3.4rem 0 1.1rem;
   margin: 3rem 0;
 }
 
-.frameworks-skills span li {
+.frameworks-skills li {
+  display: inline;
   font-size: 2rem;
   font-weight: 500;
+  margin: 1rem 0;
 }
