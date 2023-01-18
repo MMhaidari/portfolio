@@ -259,3 +259,90 @@ ul li {
   font-weight: 500;
   margin: 1rem 0;
 }
+
+.section-contact-form {
+  margin: 4rem auto 0 auto;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #6070ff;
+  gap: 24px;
+  padding: 20px;
+  border-top-left-radius: 9rem 8rem;
+  text-align: center;
+  background-image: url(./mobile-ingrediants/contact\ form\ shapes-mobile.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 150px 0;
+}
+
+.form-header {
+  margin-top: 100px;
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.form-description {
+  font-size: 20px;
+  line-height: 28px;
+  color: #fff;
+}
+
+.form-elements input {
+  height: 50px;
+  width: 327px;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 20px;
+  color: #172b4d;
+  padding: 15px;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.form-elements input::placeholder {
+  color: #000;
+}
+
+.form-elements textarea::placeholder {
+  padding: 15px;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+textarea {
+  width: 327px;
+  border: none;
+  color: #172b4d;
+}
+
+.btn-submit {
+  background: #fff;
+  color: #6070ff;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  width: 130px;
+}
+
+.btn-submit:active {
+  background: #fff;
+  color: #6070ff;
+}
+
+.btn-submit:hover {
+  background-color: #6070ff;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.btn-submit:visited {
+  background: #fff;
+  color: #6070ff;
+}
