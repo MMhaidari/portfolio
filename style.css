@@ -304,6 +304,10 @@ ul li {
   font-size: 17px;
 }
 
+.form-elements input::placeholder {
+  color: #000;
+}
+
 .form-elements textarea::placeholder {
   padding: 15px;
   font-weight: 400;
