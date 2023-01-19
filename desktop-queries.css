@@ -1,7 +1,4 @@
 @media screen and (min-width: 600px) {
-  body {
-  }
-
   .desktop-container {
     margin: 0 auto;
     max-width: 140.4rem;
@@ -68,6 +65,7 @@
     max-width: 1156px;
     margin: 0 auto;
     padding: 0;
+    margin-bottom: 14.2rem;
   }
 
   .project .card-img {
@@ -104,6 +102,7 @@
     font-size: 12px;
     letter-spacing: 0.03em;
   }
+
   .project-btn {
     font-weight: 500;
     font-size: 20px;
@@ -126,11 +125,9 @@
     padding-left: 4.8rem;
   }
 
-  .project {
-    margin-bottom: 14.2rem;
-  }
   .section-about {
     background: #fff;
+    margin-top: 0;
   }
 
   .about {
@@ -138,10 +135,6 @@
     grid-template-columns: auto 1fr;
     margin-top: 9.6rem;
     box-shadow: none;
-  }
-
-  .description-about {
-    max-width: 544px;
   }
 
   .programming-skill {
@@ -158,16 +151,13 @@
     font-size: 15px;
   }
 
-  .section-about {
-    margin-top: 0;
-  }
-
   .header-about {
     font-weight: 700;
     font-size: 40px;
   }
 
   .description-about {
+    max-width: 544px;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -197,4 +187,4 @@
   textarea {
     margin-bottom: 3rem;
   }
-} ;
+}
