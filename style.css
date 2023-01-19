@@ -6,11 +6,6 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-image: url(./mobile-ingrediants/header-shapes\ mobile.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0 45px;
-  position: absolute;
 }
 
 html {
@@ -18,15 +13,9 @@ html {
 }
 
 .container {
-  padding: 2.8rem;
-  margin: 0 auto;
   min-width: 37.5rem;
-}
-
-.navigation {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
+  margin: 0 auto;
+  padding: 2.8rem;
 }
 
 .section-header {
@@ -39,10 +28,9 @@ html {
 }
 
 .primary-header {
-  display: flex;
   font-size: 4rem;
   font-weight: 700;
-  margin-top: 12rem;
+  margin-top: rem;
   color: #172b4d;
   margin-bottom: 3.2rem;
 }
@@ -214,9 +202,8 @@ ul li {
   align-items: center;
   margin-top: 3.4rem;
   margin-bottom: 3rem;
-  margin-left: 1rem;
   padding-right: 3.4rem;
-  padding-left: 0.2rem;
+  padding-left: 0.8rem;
   font-size: 2.4rem;
   font-weight: 500;
 }
@@ -274,9 +261,8 @@ ul li {
   border-top-left-radius: 9rem 8rem;
   text-align: center;
   background-image: url(./mobile-ingrediants/contact\ form\ shapes-mobile.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: 150px 0;
 }
 
 .form-header {

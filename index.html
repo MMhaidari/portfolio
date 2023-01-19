@@ -6,21 +6,25 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
-
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="general.css">
+  <link rel="stylesheet" href="desktop-queries.css">
   <title>Profilo Website</title>
 </head>
 
 <body>
-  <div class="container">
-    <header>
-      <nav class="navigation">
-        <a href="index.html">
-          <img src="mobile-ingrediants/My Logo.png" alt="logo" />
-        </a>
-        <button class="navigation-btn">
-          <img src="mobile-ingrediants/Union.png" alt="menu-btn" />
-        </button>
+    <div class="container">
+      <div class="hero">
+        <header>
+          <nav class="navigation">
+            <a href="index.html">
+              <img src="mobile-ingrediants/My Logo.png" alt="logo" />
+            </a>
+        <ul class="navigation-links">
+          <a href="#"><li>Protoflio</li></a>
+          <a href="#"><li>About</li></a>
+          <a href="#"><li>contact</li></a>
+        </ul>
       </nav>
     </header>
     <!-- SECTION HEADER -->
@@ -61,114 +65,125 @@
         </ul>
       </div>
     </section>
+  </div>
+
+  <div class="desktop-container">
     <!-- Section project -->
     <section class="section-projects">
       <!-- FIRST PROJECT CARD -->
-      <div class="project">
-        <img src="mobile-ingrediants/Snapshoot Portfolio.png" alt="" />
-        <h3 class="project-card-header">Tonic</h3>
-        <div class="project-info">
-          <h4>CANOPY</h4>
-          <img class="dot-icon" src="mobile-ingrediants/Counter.png" alt="icon" />
-          <h4 class="project-card-header-2">Back End Dev</h4>
-          <img class="dot-icon" src="mobile-ingrediants/Counter.png" alt="icon" />
-          <h4 class="project-card-header-2">2015</h4>
-        </div>
-        <p class="card-decrption">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required.
-        </p>
-        <ul class="programming-lang">
-          <li>html</li>
-          <li>css</li>
-          <li>JavaScript</li>
-        </ul>
-        <div class="project-btn">
-          <a href="#" class="btn">See Project</a>
+      <div class="project first-card">
+        <img class="card-img" src="desktop-ingrediants/card.png" alt="" />
+        <div class="project-container">
+          <h3 class="project-card-header">Tonic</h3>
+          <div class="project-info">
+            <h4>CANOPY</h4>
+            <img class="dot-icon" src="mobile-ingrediants/Counter.png" alt="icon" />
+            <h4 class="project-card-header-2">Back End Dev</h4>
+            <img class="dot-icon" src="mobile-ingrediants/Counter.png" alt="icon" />
+            <h4 class="project-card-header-2">2015</h4>
+          </div>
+          <p class="card-decrption">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <ul class="programming-lang">
+            <li>html</li>
+            <li>css</li>
+            <li>JavaScript</li>
+          </ul>
+          <div class="project-btn">
+            <a href="#" class="btn">See Project</a>
+          </div>
         </div>
       </div>
+
       <!-- SECOND PROJECT CARD -->
-      <div class="project">
-        <img src="mobile-ingrediants/Snapshoot Portfolio (1).png" alt="" />
-        <h3 class="project-card-header">Multi-Post<br> Stories</h3>
-        <div class="project-info">
-          <h4>CANOPY</h4>
-          <img class="dot-icon" src="mobile-ingrediants/Counter.png" alt="icon" />
-          <h4 class="project-card-header-2">Back End Dev</h4>
-          <img class="dot-icon" src="mobile-ingrediants/Counter.png" alt="icon" />
-          <h4 class="project-card-header-2">2015</h4>
+      < <div class="project second-card">
+       
+        <div class="project-container">
+          <h3 class="project-card-header">Multi-Post Stories</h3>
+          <div class="project-info">
+            <h4>FACEBOOK</h4>
+            <img class="dot-icon" src="mobile-ingrediants/Counter.png" alt="icon" />
+            <h4 class="project-card-header-2">Full Stack Dev</h4>
+            <img class="dot-icon" src="mobile-ingrediants/Counter.png" alt="icon" />
+            <h4 class="project-card-header-2">2015</h4>
+          </div>
+          <p class="card-decrption">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.
+          </p>
+          <ul class="programming-lang">
+            <li>html</li>
+            <li>Ruby on rails</li>
+            <li>css</li>
+            <li>JavaScript</li>
+          </ul>
+          <div class="project-btn">
+            <a href="#" class="btn">See Project</a>
+          </div>
         </div>
-        <p class="card-decrption">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required.
-        </p>
-        <ul class="programming-lang">
-          <li>html</li>
-          <li>css</li>
-          <li>JavaScript</li>
-        </ul>
-        <div class="project-btn">
-          <a href="#" class="btn">See Project</a>
-        </div>
+        <img class="card-img" src="desktop-ingrediants/card-1.png" alt="" />
       </div>
       <!-- THIRD PROJECT CARD -->
-      <div class="project">
-        <img src="mobile-ingrediants/Snapshoot Portfolio (2).png" alt="" />
-        <h3 class="project-card-header">Tonic</h3>
-        <div class="project-info">
-          <h4>CANOPY</h4>
-          <img class="dot-icon" src="mobile-ingrediants/Counter.png" alt="icon" />
-          <h4 class="project-card-header-2">Back End Dev</h4>
-          <img class="dot-icon" src="mobile-ingrediants/Counter.png" alt="icon" />
-          <h4 class="project-card-header-2">2015</h4>
-        </div>
-        <p class="card-decrption">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required.
-        </p>
-        <ul class="programming-lang">
-          <li>html</li>
-          <li>css</li>
-          <li>JavaScript</li>
-        </ul>
-        <div class="project-btn">
-          <a href="#" class="btn">See Project</a>
+      <div class="project third-card">
+        <img class="card-img" src="desktop-ingrediants/card-2.png" alt="" />
+        <div class="project-container">
+          <h3 class="project-card-header">Facebook 360</h3>
+          <div class="project-info">
+            <h4>FACEBOOK</h4>
+            <img class="dot-icon" src="mobile-ingrediants/Counter.png" alt="icon" />
+            <h4 class="project-card-header-2">Full Stack Dev</h4>
+            <img class="dot-icon" src="mobile-ingrediants/Counter.png" alt="icon" />
+            <h4 class="project-card-header-2">2015</h4>
+          </div>
+          <p class="card-decrption">
+            Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.
+          </p>
+          <ul class="programming-lang">
+            <li>html</li>
+            <li>css</li>
+            <li>JavaScript</li>
+          </ul>
+          <div class="project-btn">
+            <a href="#" class="btn">See Project</a>
+          </div>
         </div>
       </div>
       <!-- FIFTH PROJECT CARD -->
-      <div class="project">
-        <img src="mobile-ingrediants/Snapshoot Portfolio (3).png" alt="" />
-        <h3 class="project-card-header">Multi-Post<br> Stories</h3>
-        <div class="project-info">
-          <h4>CANOPY</h4>
-          <img class="dot-icon" src="mobile-ingrediants/Counter.png" alt="icon" />
-          <h4 class="project-card-header-2">Back End Dev</h4>
-          <img class="dot-icon" src="mobile-ingrediants/Counter.png" alt="icon" />
-          <h4 class="project-card-header-2">2015</h4>
+      <div class="project forth-card">
+        <div class="project-container">
+          <h3 class="project-card-header">Uber Navigation</h3>
+          <div class="project-info">
+            <h4>Uber</h4>
+            <img class="dot-icon" src="mobile-ingrediants/Counter.png" alt="icon" />
+            <h4 class="project-card-header-2">Lead Developer</h4>
+            <img class="dot-icon" src="mobile-ingrediants/Counter.png" alt="icon" />
+            <h4 class="project-card-header-2">2015</h4>
+          </div>
+          <p class="card-decrption">
+            Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.
+          </p>
+          <ul class="programming-lang">
+            <li>html</li>
+            <li>Ruby on rails</li>
+            <li>css</li>
+            <li>JavaScript</li>
+          </ul>
+          <div class="project-btn">
+            <a href="#" class="btn">See Project</a>
+          </div>
         </div>
-        <p class="card-decrption">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required.
-        </p>
-        <ul class="programming-lang">
-          <li>html</li>
-          <li>css</li>
-          <li>JavaScript</li>
-        </ul>
-        <div class="project-btn">
-          <a href="#" class="btn">See Project</a>
-        </div>
+        <img class="card-img" src="desktop-ingrediants/card-3.png" alt="" />
       </div>
-    </section>
 
     <!-- ABOUT SECTION -->
     <section class="section-about">
       <div class="about">
-        <h2 class="header-about">
-          About<br />
-          Myself
-        </h2>
-        <p class="description-about">
+        <div>
+          <h2 class="header-about">
+            About<br />
+            Myself
+          </h2>
+          <p class="description-about">
           Hello I’m a software developer! I can help you build a product ,
           feature or website Look through some of my work and experience! If
           you like what you see and have a project you need coded, don’t
@@ -198,8 +213,11 @@
           </li>
         </ul>
         <a href="#" class="btn about-btn">Get my resume</a>
-        <ul class="languages">
-          <li>Languages</li>
+      </div>
+        <div>
+
+          <ul class="languages">
+            <li>Languages</li>
           <svg viewBox="0 0 1024 1024" class="arrow-icon" version="1.1" xmlns="http://www.w3.org/2000/svg"
             fill="#000000">
             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -214,32 +232,34 @@
           <li><img src="mobile-ingrediants/Ellipse 1 (1).png" alt="HTML logo">HTML</li>
           <li><img src="mobile-ingrediants/Ellipse 1 (2).png" alt="">CSS</li>
         </ul>
-
+        
         <ul class="frameworks-skills">
           <li>Frameworks</li>
           <svg class="arrow-icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" stroke-width="3"
-            stroke="#000000" fill="none">
-            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-            <g id="SVGRepo_iconCarrier">
-              <polyline points="18.86 57.47 44.12 30.84 18.86 6.58"></polyline>
-            </g>
-          </svg>
-        </ul>
-        <ul class="frameworks-skills">
-          <li>Skills</li>
-          <svg class="arrow-icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" stroke-width="3"
-            stroke="#000000" fill="none">
-            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-            <g id="SVGRepo_iconCarrier">
-              <polyline points="18.86 57.47 44.12 30.84 18.86 6.58"></polyline>
-            </g>
-          </svg>
-        </ul>
-    </section>
+          stroke="#000000" fill="none">
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+          <g id="SVGRepo_iconCarrier">
+            <polyline points="18.86 57.47 44.12 30.84 18.86 6.58"></polyline>
+          </g>
+        </svg>
+      </ul>
+      <ul class="frameworks-skills">
+        <li>Skills</li>
+        <svg class="arrow-icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" stroke-width="3"
+        stroke="#000000" fill="none">
+        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+        <g id="SVGRepo_iconCarrier">
+          <polyline points="18.86 57.47 44.12 30.84 18.86 6.58"></polyline>
+        </g>
+      </svg>
+    </ul>
   </div>
-    <!--  CONTACT FORM SECTION -->
+  </section>
+
+</div>
+<!--  CONTACT FORM SECTION -->
     <section class="section-contact-form">
       <div class="contact-container">
         <h1 class="form-header">Contact me</h1>
@@ -248,16 +268,15 @@
           that you need built or a project that needs coding. I’d love to help
           with it
         </p>
-        <div class="form-elements">
           <form  action="https://formspree.io/f/mvongqaj"
-          method="POST">
+          method="POST" class="form-elements">
             <input type="text" name="user_name" placeholder="Yeremias" maxlength="30"/>
             <input type="email" name="user_email" placeholder="natajayanj14@gmail.com" />
             <textarea name="user_text" id="msg" cols="30" rows="10" placeholder="Write your message here..." maxlength="500"></textarea>
-        </div>
-        <button class="btn-submit">Get It Touch</button>
-        </form>
+            <button class="btn-submit">Get It Touch</button>
+          </form>
       </div>
     </section>
+  </div>
 </body>
 </html>
