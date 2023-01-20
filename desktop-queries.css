@@ -1,0 +1,325 @@
+@media screen and (min-width: 600px) {
+  .desktop-container {
+    margin: 0 auto;
+    max-width: 140.4rem;
+    background: #f1f3f5;
+  }
+
+  .hero {
+    background-image: url(./desktop-ingrediants/Header\ bg.png);
+    background-repeat: no-repeat;
+    max-width: 140.4rem;
+    margin: 0 auto;
+    background-position-y: 90px;
+    height: 91.8rem;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.8rem 12rem;
+  }
+
+  .humbarger-btn {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .navigation-links {
+    display: flex;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .navigation-links a {
+    text-decoration: none;
+    list-style: none;
+    color: #344563;
+  }
+
+  .headline {
+    max-width: 92rem;
+    grid-template-columns: auto;
+    margin: 0 auto;
+  }
+
+  .primary-header {
+    margin-top: 22rem;
+    font-size: 4.8rem;
+    font-weight: 700;
+  }
+
+  .primary-decrption {
+    max-width: 92rem;
+    height: 9.8rem;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+
+  .project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    max-width: 115.6rem;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 12.2rem;
+  }
+
+  .project .card-img {
+    max-width: 54.4rem;
+    padding: 2.4rem;
+  }
+
+  .project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+  }
+
+  .project-info {
+    font-weight: 500;
+    font-size: 1.8rem;
+  }
+
+  .dot-icon {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+  }
+
+  .project-card-header {
+    font-size: 5rem;
+    font-weight: 700;
+  }
+
+  .card-decrption {
+    font-size: 1.8rem;
+    max-width: 46.9rem;
+    margin-top: 3.8rem;
+  }
+
+  .programming-lang {
+    font-weight: 500;
+    font-size: 1.2rem;
+    letter-spacing: 0.03em;
+  }
+
+  .project-btn {
+    font-weight: 500;
+    font-size: 2rem;
+  }
+
+  .first-card {
+    margin-top: 14rem;
+  }
+
+  .second-card {
+    padding-left: 2rem;
+  }
+
+  .third-card {
+    padding-right: 2rem;
+  }
+
+  .forth-card {
+    padding-left: 2rem;
+  }
+
+  .section-about {
+    background: #fff;
+    margin-top: 0;
+  }
+
+  .first-card .card-img {
+    padding-right: 0;
+  }
+
+  .second-card .card-img {
+    padding-left: 0;
+  }
+
+  .third-card .card-img {
+    padding-right: 0;
+  }
+
+  .forth-card .card-img {
+    padding-left: 0;
+  }
+
+  .third-card .project-container .project-btn .btn {
+    background: #4053fc;
+    color: #fff;
+  }
+
+  .third-card .project-container .project-btn .btn:hover {
+    color: #4053fc;
+    background: #fff;
+  }
+
+  .about {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin-top: 9.6rem;
+    box-shadow: none;
+  }
+
+  .programming-skill {
+    flex-direction: row;
+  }
+
+  .programming-skill li {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    width: 12.2rem;
+    height: 12rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  .header-about {
+    font-weight: 700;
+    font-size: 4rem;
+  }
+
+  .description-about {
+    max-width: 54.4rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    margin: 2.4rem auto;
+  }
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 140.4rem;
+    margin: 0 auto;
+    background-image: url(./desktop-ingrediants/contact\ form\ background\ shapes@2x.png);
+    background-size: cover;
+  }
+
+  .form-description {
+    max-width: 56.9rem;
+    margin: 0 auto 2rem auto;
+  }
+
+  .form-elements {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .form-elements input {
+    border-radius: 0.1rem;
+    font-weight: 400;
+    font-size: 1.7rem;
+    width: 44.7rem;
+  }
+
+  textarea {
+    margin-bottom: 3rem;
+    width: 44.7rem;
+  }
+
+  .btn-submit {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    background-image: url(./mobile-ingrediants/header-shapes\ mobile.png);
+    background-repeat: no-repeat;
+    background-position: 0 8.8rem;
+  }
+
+  .primary-header {
+    margin-top: 9.6rem;
+  }
+
+  .humbarger-btn {
+    float: right;
+  }
+
+  .project-info h4 {
+    margin-bottom: 0.8rem;
+  }
+
+  .card-img {
+    max-width: 295px;
+  }
+
+  .second-card,
+  .forth-card {
+    flex-direction: column-reverse;
+  }
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #6070ff;
+    gap: 24px;
+    padding: 20px;
+    width: auto;
+    border-top-left-radius: 9rem 8rem;
+    text-align: center;
+    background-image: url(./mobile-ingrediants/contact\ form\ shapes-mobile.png);
+    background-size: contain;
+    background-position: center right;
+    background-repeat: no-repeat;
+  }
+
+  .form-header {
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .form-description {
+    font-size: 20px;
+    line-height: 28px;
+    color: #fff;
+  }
+
+  .form-elements input {
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 20px;
+    color: #172b4d;
+    padding: 15px;
+    font-weight: 400;
+    font-size: 17px;
+    width: 30rem;
+  }
+
+  .form-elements input::placeholder {
+    color: #000;
+  }
+
+  .form-elements textarea::placeholder {
+    padding: 15px;
+    font-weight: 400;
+    font-size: 17px;
+  }
+
+  textarea {
+    width: 30rem;
+    border: none;
+    color: #b3bac5;
+    margin-bottom: 2rem;
+  }
+}
