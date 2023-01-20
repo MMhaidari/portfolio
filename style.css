@@ -27,6 +27,11 @@ html {
   border: none;
 }
 
+.navigation-links {
+  visibility: hidden;
+  opacity: 0;
+}
+
 .primary-header {
   font-size: 4rem;
   font-weight: 700;
@@ -120,7 +125,7 @@ ul li {
 .programming-lang li {
   background: #ebebff;
   border-radius: 8px;
-  padding: 0.4rem 1.2rem;
+  padding: 0.4rem 0.8rem;
 }
 
 .btn {
@@ -143,7 +148,7 @@ ul li {
   background: #6070ff;
   color: #fff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-  border-radius: 8px;
+  border-radius: 1.5rem;
   transition: all 0.5s;
 }
 
@@ -261,7 +266,6 @@ ul li {
   border-top-left-radius: 9rem 8rem;
   text-align: center;
   background-image: url(./mobile-ingrediants/contact\ form\ shapes-mobile.png);
-  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -280,7 +284,6 @@ ul li {
 
 .form-elements input {
   height: 50px;
-  width: 327px;
   border-radius: 6px;
   border: none;
   margin-bottom: 20px;
@@ -301,9 +304,8 @@ ul li {
 }
 
 textarea {
-  width: 327px;
   border: none;
-  color: #172b4d;
+  color: #b3bac5;
 }
 
 .btn-submit {
