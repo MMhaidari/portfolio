@@ -27,11 +27,6 @@ html {
   border: none;
 }
 
-.navigation-links {
-  visibility: hidden;
-  opacity: 0;
-}
-
 .primary-header {
   font-size: 4rem;
   font-weight: 700;
