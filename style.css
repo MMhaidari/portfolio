@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -40,7 +40,7 @@ html {
   align-items: center;
   flex-direction: column;
   gap: 2.8rem;
-  background: white;
+  background: rgb(79, 76, 76);
   height: 100vh;
   width: 100vw;
   font-size: 4rem;
@@ -59,7 +59,7 @@ html {
   padding: 0 2.8rem 0 0;
 }
 
-.open-nav .navigation-links {
+.navigation-links.open-nav {
   display: none;
 }
 
