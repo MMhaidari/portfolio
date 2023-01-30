@@ -27,6 +27,42 @@ html {
   border: none;
 }
 
+.navigation {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.navigation-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2.8rem;
+  background: white;
+  height: 100vh;
+  width: 100vw;
+  font-size: 4rem;
+  z-index: 2;
+  color: #6070ff;
+}
+
+.navigation-links a {
+  text-decoration: none;
+}
+
+.humbarger-btn {
+  z-index: 9;
+  position: absolute;
+  right: 0;
+  padding: 0 2.8rem 0 0;
+}
+
+.open-nav .navigation-links {
+  display: none;
+}
+
 .primary-header {
   font-size: 4rem;
   font-weight: 700;
