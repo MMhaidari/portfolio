@@ -6,10 +6,14 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 html {
   font-size: 62.25%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 .container {
@@ -20,16 +24,6 @@ html {
 
 .section-header {
   margin-bottom: 31.9rem;
-}
-
-.navigation-btn {
-  background-color: transparent;
-  border: none;
-}
-
-.navigation-links {
-  visibility: hidden;
-  opacity: 0;
 }
 
 .primary-header {
