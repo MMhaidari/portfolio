@@ -1,3 +1,8 @@
+.hidescrollbar {
+  overflow-y: hidden;
+  height: 100vh;
+}
+
 @media screen and (min-width: 600px) {
   .desktop-container {
     margin: 0 auto;
@@ -14,33 +19,29 @@
     height: 91.8rem;
   }
 
-  .navigation {
+  .humbarger-btn {
+    display: none;
+  }
+
+  .header,
+  .navigation ul {
     display: flex;
     justify-content: space-between;
-    padding: 2.8rem 12rem;
   }
 
-  .humbarger-btn {
-    visibility: hidden;
-    opacity: 0;
-  }
-
-  .navigation-links {
-    display: flex;
+  .navigation ul {
+    gap: 3.2rem;
+    font-style: normal;
     font-weight: 500;
-    font-size: 1.5rem;
-    line-height: 2rem;
-    align-items: center;
-    text-align: center;
-    gap: 3rem;
-    visibility: visible;
-    opacity: 1;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: none;
   }
 
   .navigation-links a {
     text-decoration: none;
-    list-style: none;
     color: #344563;
+    transition: all 50s ease-in-out;
   }
 
   .headline {
@@ -258,8 +259,58 @@
     margin-top: 9.6rem;
   }
 
+  .navigation-btn {
+    background-color: transparent;
+    border: none;
+  }
+
+  .navigation {
+    display: block;
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    left: 0;
+  }
+
+  .navigation-links {
+    display: flex;
+    flex-direction: column;
+    background: #6070ff;
+    mix-blend-mode: multiply;
+    backdrop-filter: blur(10px);
+    padding: 4.8rem 0 0 2.8rem;
+    height: 100vh;
+    width: 100vw;
+    font-size: 4rem;
+    z-index: 2;
+    color: #fff;
+    animation: moveInBottom 1s ease-in-out;
+  }
+
+  @keyframes moveInBottom {
+    0% {
+      transform: translateY(110%);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .navigation-links a {
+    text-decoration: none;
+    color: #fff;
+  }
+
   .humbarger-btn {
-    float: right;
+    z-index: 9;
+    position: absolute;
+    right: 0;
+    padding: 0 2.8rem 0 0;
+  }
+
+  .navigation-links.open-nav {
+    display: none;
   }
 
   .project-info h4 {
