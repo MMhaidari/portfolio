@@ -338,24 +338,22 @@ textarea {
   transition: all 1s;
 }
 
-.model__header_container{
+.model__header_container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.model__header_container .close_btn{
+.model__header_container .close_btn {
   border: none;
   background: transparent;
 }
 
-
-.model__header_container .close_btn img{
+.model__header_container .close_btn img {
   filter: invert(1);
 }
 
-
-.popup-wrapper{
+.popup-wrapper {
   position: fixed;
   top: 0;
   left: 0;
@@ -367,6 +365,6 @@ textarea {
   overflow-y: auto;
 }
 
-.popup-wrapper.close_popup{
+.popup-wrapper.close_popup {
   display: none;
 }
