@@ -49,13 +49,20 @@
 
 <a>https://mmhaidari.github.io/portfolio-setup-and-mobile-first/</a>
 
-### Prerequisites
 
-In order to run this project you need:
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
 
 ### Setup
 
 Clone this repository to your desired folder:
+
+    cd my-folder
+    git clone git@github.com:MMhaidari/portfolio-setup-and-mobile-first.git
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
