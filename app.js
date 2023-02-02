@@ -61,8 +61,6 @@ contactForm.addEventListener('change', () => {
   contactDetails['fullName'] = document.getElementById('name').value;
   contactDetails['email'] = document.getElementById('email').value;
   contactDetails['message'] = document.getElementById('msg').value;
-
-  console.log(contactDetails);
   //set the local storage data with the upddated contact form
   localStorage.setItem('contactDetails', JSON.stringify(contactDetails));
 });
