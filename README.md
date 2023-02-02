@@ -49,9 +49,7 @@
 
 <a>https://mmhaidari.github.io/portfolio-setup-and-mobile-first/</a>
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -119,7 +117,6 @@ I would also like to thank [W3schools](https://www.w3schools.com/css/css_grid.as
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./Lincense.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
