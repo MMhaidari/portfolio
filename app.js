@@ -37,3 +37,32 @@ submitBtn.addEventListener('click', (event) => {
     error.style.cssText = 'visibility: hidden; opacity: 0';
   }
 });
+
+// Data preserve
+const contactDetails = {
+  fullName: String,
+  email: String,
+  message: String,
+};
+
+window.onload = () => {
+  const contactData = JSON.parse(localStorage.getItem('contactDetails'));
+  console.log(contactData);
+
+  //populate the local storage information into the contact form
+  if (contactData) {
+    document.getElementById('name').value = contactData.fullname;
+    document.getElementById('email').value = contactData.email;
+    document.getElementById('msg').value = contactData.message;
+  }
+};
+
+contactForm.addEventListener('change', () => {
+  contactDetails['fullName'] = document.getElementById('name').value;
+  contactDetails['email'] = document.getElementById('email').value;
+  contactDetails['message'] = document.getElementById('msg').value;
+
+  console.log(contactDetails);
+  //set the local storage data with the upddated contact form
+  localStorage.setItem('contactDetails', JSON.stringify(contactDetails));
+});
