@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="general.css">
   <link rel="stylesheet" href="desktop-queries.css">
   <title>Profilo Website</title>
 </head>
@@ -24,7 +23,7 @@
         <ul class="navigation-links open-nav">
           <a href="#section-header"><li>Protoflio</li></a>
           <a href="#section-about"><li>About</li></a>
-          <a href="#section-contact-form"><li>contact</li></a>
+          <a href="#contact-form"><li>contact</li></a>
         </ul>
       </nav>
     </header>
@@ -96,13 +95,14 @@
             <li>JavaScript</li>
           </ul>
           <div class="project-btn">
-            <a href="#" class="btn">See Project</a>
+            <a href="#" class="btn btnView">See Project</a>
           </div>
         </div>
       </div>
 
+
       <!-- SECOND PROJECT CARD -->
-      < <div class="project second-card">
+     <div class="project second-card">
         <div class="project-container">
           <h3 class="project-card-header">Multi-Post Stories</h3>
           <div class="project-info">
@@ -121,13 +121,16 @@
             <li>JavaScript</li>
           </ul>
           <div class="project-btn">
-            <a href="#" class="btn">See Project</a>
+            <a href="#" class="btn btnView">See Project</a>
           </div>
         </div>
         <div class="overflow-img">
           <img class="card-img" src="desktop-ingrediants/card-1.png" alt="project demo image" />
         </div>
       </div>
+
+
+
       <!-- THIRD PROJECT CARD -->
       <div class="project third-card">
         <div class="overflow-img">
@@ -151,10 +154,11 @@
             <li>JavaScript</li>
           </ul>
           <div class="project-btn">
-            <a href="#" class="btn">See Project</a>
+            <a href="#" class="btn btnView">See Project</a>
           </div>
         </div>
       </div>
+
       <!-- FIFTH PROJECT CARD -->
       <div class="project forth-card">
         <div class="project-container">
@@ -176,14 +180,13 @@
             <li>JavaScript</li>
           </ul>
           <div class="project-btn">
-            <a href="#" class="btn">See Project</a>
+            <a href="#" class="btn btnView">See Project</a>
           </div>
         </div>
         <div class="overflow-img">
           <img class="card-img" src="desktop-ingrediants/card-3.png" alt="project demo image" />
         </div>
       </div>
-
     <!-- ABOUT SECTION -->
     <section class="section-about" id="section-about">
       <div class="about">
@@ -269,6 +272,46 @@
 
 </div>
 </div>
+
+  <!-- START::POPUP WINDOW-->
+    <div class="popup-wrapper close_popup">
+      <div class="model first-card-model">
+        <div class="model__header_container">
+          <h3 class="model__header">Tonic</h3>
+
+          <button type="button" title="close button" class="close_btn">
+            <img src="mobile-ingrediants/Icon.png" width="100%" alt="close button">
+          </button>
+        </div>
+        <div class="model-info">
+          <h4>CANOPY</h4>
+          <img class="dot-icon" src="mobile-ingrediants/Counter.png" alt="icon" />
+          <h4 class="project-card-header-2">Back End Dev</h4>
+          <img class="dot-icon" src="mobile-ingrediants/Counter.png" alt="icon" />
+          <h4 class="project-card-header-2">2015</h4>
+        </div>
+        <img class="model-img" src="desktop-ingrediants/Snapshoot Portfolio.png" alt="project demo image" />
+        <div class="model-info-desription">
+        <p class="model-decrption">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
+        <div>
+          <ul class="programming-skills">
+            <li>html</li>
+            <li>css</li>
+            <li>JavaScript</li>
+          </ul>
+          <hr class="breakline">
+          <div class="model_btn">
+            <a href="#" class="see-live">See live <img src="./desktop-ingrediants/Icon.png" alt="icon"></a>
+            <a href="#" class="see-source">See Source <img src="./desktop-ingrediants/Frame.png" alt="icon"></a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  <!-- END::POPUP WINDOW-->
+
 <!--  CONTACT FORM SECTION -->
     <section class="section-contact-form" id="section-contact-form">
       <div class="contact-container">
@@ -279,14 +322,16 @@
           with it
         </p>
           <form  action="https://formspree.io/f/mvongqaj"
-          method="POST" class="form-elements">
-            <input type="text" name="user_name" placeholder="Alexandra Loremipsum" maxlength="30"/>
-            <input type="email" name="user_email" placeholder="alexandra@gmail.com" />
-            <textarea name="user_text" id="msg" cols="30" rows="10" placeholder="Write your message here" maxlength="500"></textarea>
-            <button class="btn-submit">Get It Touch</button>
+          method="POST" class="form-elements" id="contact-form">
+            <input type="text" name="user_name" placeholder="Alexandra Loremipsum" maxlength="30" required/>
+            <input type="email" name="email" id="email" aria-label="email" placeholder="alexandra@gmail.com" required/>
+            <textarea name="user_text" id="msg" cols="30" rows="10" placeholder="Write your message here" maxlength="500" required></textarea>
+            <span class="error"></span>
+            <button type="submit" class="btn-submit">Get It Touch</button>
           </form>
       </div>
-    </section>
+    </section> 
+    <script src="project.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
