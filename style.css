@@ -365,11 +365,7 @@ textarea {
   padding: 20px 10px 40px 10px;
   box-sizing: border-box;
 }
+
 .popup-wrapper.model {
   background: #fff;
-}
-
-.project-btn {
-  background-color: none;
-  border: none;
 }
