@@ -11,7 +11,10 @@
   - [Prerequisites](#prerequisites)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -46,13 +49,18 @@
 
 <a>https://mmhaidari.github.io/portfolio-setup-and-mobile-first/</a>
 
-### Prerequisites
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-In order to run this project you need:
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
 
 ### Setup
 
 Clone this repository to your desired folder:
+
+    cd my-folder
+    git clone git@github.com:MMhaidari/portfolio-setup-and-mobile-first.git
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,4 +101,22 @@ Clone this repository to your desired folder:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project, please provide suggestions to help improve this project
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank [CSS-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) for guidance and knowledge on flexbox
+
+I would also like to thank [W3schools](https://www.w3schools.com/css/css_grid.asp) and [Net Ninja](https://netninja.dev/p/build-layouts-with-css-grid) for tutorials on css grids
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./Lincense.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
