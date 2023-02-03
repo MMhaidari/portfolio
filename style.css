@@ -338,35 +338,38 @@ textarea {
   transition: all 1s;
 }
 
-.model__header_container{
+.model__header_container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.model__header_container .close_btn{
+.model__header_container .close_btn {
   border: none;
   background: transparent;
 }
 
-
-.model__header_container .close_btn img{
+.model__header_container .close_btn img {
   filter: invert(1);
 }
 
-
-.popup-wrapper{
+.popup-wrapper {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background: rgb(193 199 208 / 76%);
-  backdrop-filter: blur(12px);
-  height: 100%;
-  padding: 5rem;
-  overflow-y: auto;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.66);
+  backdrop-filter: blur(6px);
+  z-index: 10;
+  padding: 20px 10px 40px 10px;
+  box-sizing: border-box;
+}
+.popup-wrapper.model {
+  background: #fff;
 }
 
-.popup-wrapper.close_popup{
-  display: none;
+.project-btn {
+  background-color: none;
+  border: none;
 }
