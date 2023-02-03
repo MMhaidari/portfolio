@@ -29,7 +29,7 @@ html {
 .primary-header {
   font-size: 4rem;
   font-weight: 700;
-  margin-top: rem;
+  margin-top: 8rem;
   color: #172b4d;
   margin-bottom: 3.2rem;
 }
@@ -70,7 +70,7 @@ ul li {
   border-radius: 16px;
   margin-bottom: 9.6rem;
   padding: 1rem 1rem 2.4rem 1rem;
-  box-shadow: 0 0 5px 1 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
 }
 
 .project.card-img {
@@ -303,7 +303,8 @@ ul li {
 
 textarea {
   border: none;
-  color: #b3bac5;
+  color: #000;
+  font-size: 2rem;
 }
 
 .btn-submit {
@@ -369,7 +370,22 @@ textarea {
   background: #fff;
 }
 
+
 .project-btn {
   background-color: none;
   border: none;
+
+.popup-wrapper.close_popup {
+  display: none;
+}
+
+.error {
+  background-color: #9c2b2e;
+  padding: 10px;
+  border: 1px solid #e84e4f;
+  text-align: center;
+  visibility: hidden;
+  font-size: 1.6rem;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
 }
