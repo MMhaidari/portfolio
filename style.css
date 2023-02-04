@@ -359,24 +359,14 @@ textarea {
   top: 0;
   left: 0;
   width: 100%;
-  background: rgb(193 199 208 / 76%);
-  backdrop-filter: blur(12px);
-  height: 100%;
-  padding: 5rem;
-  overflow-y: auto;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.66);
+  backdrop-filter: blur(6px);
+  z-index: 10;
+  padding: 20px 10px 40px 10px;
+  box-sizing: border-box;
 }
 
-.popup-wrapper.close_popup {
-  display: none;
-}
-
-.error {
-  background-color: #9c2b2e;
-  padding: 10px;
-  border: 1px solid #e84e4f;
-  text-align: center;
-  visibility: hidden;
-  font-size: 1.6rem;
-  opacity: 0;
-  transition: visibility 0s, opacity 0.5s linear;
+.popup-wrapper.model {
+  background: #fff;
 }
