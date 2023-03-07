@@ -45,9 +45,9 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 💻 You Find out the profolio website online by clicking to below link
+## 💻 Live demo
 
-<a href="https://mmhaidari.github.io/portfolio/">Live demo</a>
+<a href="https://mmhaidari.github.io/portfolio/">click Here</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
