@@ -1,39 +1,39 @@
 const portfolioItems = [
   {
-    name: 'Tonic',
+    name: 'Awesome Book',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: 'desktop-ingrediants/card.png',
+      'A Book library app build in JavaScript, HTML, CSS you can use to add your books online so then you can use it, add new books, or delete it.',
+    featuredImage: 'mobile-ingrediants/awesomebook.png',
     technologies: ['html', 'css', 'javascript'],
-    liveLink: '',
-    sourceLink: '',
-    category: 'CANOPY',
-    stack: 'Back End Dev',
+    liveLink: 'https://mmhaidari.github.io/awesome-book/',
+    sourceLink: 'https://github.com/MMhaidari/awesome-book',
+    category: 'self-made',
+    stack: 'Front-end dev',
+    year: '2023',
+  },
+  {
+    name: 'ToDo List App',
+    description:
+      'A ToDoList app build in HTML, CSS and JavaScript, used to list the daily tasks of client. it is also interactive which means that clients are able to customize their task after adding it to the lis….',
+    featuredImage: 'mobile-ingrediants/todolist.png',
+    technologies: ['html', 'css', 'javascript'],
+    liveLink: 'https://github.com/MMhaidari/ToDoList',
+    sourceLink: 'https://github.com/MMhaidari/ToDoList',
+    category: 'self-made',
+    stack: 'Front-end dev',
     year: '2015',
   },
   {
-    name: 'Multi-Post Stories',
+    name: 'Online School',
     description:
-      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    featuredImage: 'desktop-ingrediants/card-1.png',
+      "This website is build on HTML CSS, SASS and JavaScript. this website is for an school which offers education in an online platform",
+    featuredImage: 'mobile-ingrediants/onlineSchool.png',
     technologies: ['html', 'css', 'javascript'],
-    liveLink: '',
-    sourceLink: '',
-    category: 'FACEBOOK',
-    stack: 'Full Stack Dev',
-    year: '2015',
-  },
-  {
-    name: 'Facebook 360',
-    description:
-      "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
-    featuredImage: 'desktop-ingrediants/card-2.png',
-    technologies: ['html', 'css', 'javascript'],
-    liveLink: '',
-    sourceLink: '',
-    category: 'FACEBOOK',
-    stack: 'Full Stack Dev',
-    year: '2015',
+    liveLink: 'https://mmhaidari.github.io/html-css-js-capstone/',
+    sourceLink: 'https://github.com/MMhaidari/html-css-js-capstone',
+    category: 'self-made',
+    stack: 'Front-end dev',
+    year: '2023',
   },
   {
     name: 'Uber Navigation',
@@ -43,7 +43,7 @@ const portfolioItems = [
     technologies: ['html', 'css', 'javascript'],
     liveLink: '',
     sourceLink: '',
-    category: 'Uber',
+    category: 'self-made',
     stack: 'Lead Developer',
     year: '2018',
   },
@@ -63,7 +63,7 @@ portfolioItems.forEach((item, index) => {
     <img class="card-img" src="${item.featuredImage}" alt="project demo image" />
   </div>
   <div class="project-container">
-    <h3 class="project-card-header">Tonic</h3>
+    <h3 class="project-card-header">${item.name}</h3>
     <div class="project-info">
       <h4>${item.name}</h4>
       <img class="dot-icon" src="mobile-ingrediants/Counter.png" alt="icon" />
@@ -127,10 +127,10 @@ seeProjectButtons.forEach((btn) => {
         <hr class="breakline">
         <ul class="model_btn">
         <li>
-          <a href="#" class="see-live">See live <img src="./desktop-ingrediants/Icon.png" alt="icon"></a>
+          <a href="${portfolioItem.liveLink}" class="see-live" target="_blank">See live <img src="./desktop-ingrediants/Icon.png" alt="icon"></a>
           </li>
           <li>
-          <a href="#" class="see-source">See Source <img src="./desktop-ingrediants/Frame.png" alt="icon"></a>
+          <a href="${portfolioItem.sourceLink}" class="see-source" target="_blank">See Source <img src="./desktop-ingrediants/Frame.png" alt="icon"></a>
           </li>
         </ul>
       </div>
